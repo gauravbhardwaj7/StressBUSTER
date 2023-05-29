@@ -4,7 +4,7 @@ struct ViewRows: View {
     let title: String
     let description: String
     let icon: String
-    let bg = [Color(red: 0.01, green: 0.03, blue: 0.04), Color(red: 0.18, green: 0.18, blue: 0.31),Color(red: 0.08, green: 0.61, blue: 0.01),Color(red: 0.01, green: 0.01, blue: 0.01)]
+    let bg = [Color(red: 0.01, green: 0.03, blue: 0.04), Color(red: 0.18, green: 0.18, blue: 0.31),Color(red: 0.01, green: 0.01, blue: 0.01)]
     @State var bgAnimate = false
     
     @State var name: String = ""
